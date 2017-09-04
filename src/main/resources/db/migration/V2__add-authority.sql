@@ -1,0 +1,1 @@
+alter table users add is_admin tinyint(1) not null default '0' after password;
